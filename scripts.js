@@ -19,7 +19,7 @@
 
     fetchJSON: function(){
 
-      var githubAPI = 'https://api.github.com/repos/scribbletone/dwp/commits?access_token=9f1c1d726316604f27152d19665b955bd26dcb26&sha=journal';
+      var githubAPI = 'https://api.github.com/repos/scribbletone/dwp/commits?access_token=715b729f5dba8ed8c37d6b551509b09d0789704e&sha=journal';
       $.getJSON(githubAPI)
         .done(function(data) {
 
